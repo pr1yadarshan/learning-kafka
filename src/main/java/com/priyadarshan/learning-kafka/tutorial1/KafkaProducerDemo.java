@@ -3,7 +3,6 @@ import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.common.serialization.StringSerializer;
 
-import java.util.GregorianCalendar;
 import java.util.Properties;
 
 public class KafkaProducerDemo {
