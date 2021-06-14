@@ -9,7 +9,7 @@ import java.util.Properties;
 public class KafkaProducerDemo {
     public static void main(String[] args) {
 
-        final String BOOTSTRAP_SERVER = "localhost:9092";
+        final String BOOTSTRAP_SERVER = "127.0.0.1:9092";
         final String KAFKA_TOPIC = "firstTopic";
 
         //create producer properties
